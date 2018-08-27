@@ -3,10 +3,10 @@
 ## Description
 
 This repository contains one of Application Notes for [OPTIGA™ Trust X1](www.infineon.com/optiga-trust-x) security chip.
+
+* **You can find step-by-step get started guide on the [Wiki page](https://github.com/Infineon/getstarted-optiga-trust-x/wiki) of the project**
 * You can find more information about the security chip in the core [repository](https://github.com/Infineon/optiga-trust-x)
 * You can find other Application Notes in the respective [repository](https://github.com/Infineon/appnotes-optiga-trust-x)
-
-* You can find step-by-step get started guide on the [Wiki page](https://github.com/Infineon/getstarted-optiga-trust-x/wiki) of the project
 
 ## Summary
 In this guide you may find the following steps:
