@@ -37,6 +37,7 @@
 #include "optiga/optiga_util.h"
 #include "optiga/ifx_i2c/ifx_i2c_config.h"
 #include "optiga/common/AuthLibSettings.h"
+#include "Helper.h"
 /*************************************************************************
  *  main_xmc4500.c
 *************************************************************************/
@@ -66,16 +67,10 @@ extern optiga_lib_status_t asn1_to_ecdsa_rs(const uint8_t * asn1, size_t asn1_le
 *  Global
 *************************************************************************/
 optiga_comms_t optiga_comms = {(void*)&ifx_i2c_context_0,NULL,NULL, OPTIGA_COMMS_SUCCESS};
-static host_lib_status_t optiga_comms_status;
 
 /*************************************************************************
 *  functions
 *************************************************************************/
-static void optiga_comms_event_handler(void* upper_layer_ctx, host_lib_status_t event)
-{
-    optiga_comms_status = event;
-}
-
 
 static int32_t optiga_init(void)
 {
@@ -83,26 +78,6 @@ static int32_t optiga_init(void)
 
 	do
 	{
-		// OPTIGA Initialisation phase
-		//Invoke optiga_comms_open to initialize the IFX I2C Protocol and security chip
-		optiga_comms_status = OPTIGA_COMMS_BUSY;
-		optiga_comms.upper_layer_handler = optiga_comms_event_handler;
-		status = optiga_comms_open(&optiga_comms);
-		if(E_COMMS_SUCCESS != status)
-		{
-			XMC_DEBUG( ("Failure: optiga_comms_open(): 0x%04X\n\r", status) );
-			break;
-		}
-
-		//Wait until IFX I2C initialization is complete
-		while(optiga_comms_status == OPTIGA_COMMS_BUSY) {}
-
-		if((OPTIGA_COMMS_SUCCESS != status) || (optiga_comms_status == OPTIGA_COMMS_ERROR))
-		{
-			XMC_DEBUG( ("Failure: optiga_comms_status(): 0x%04X\n\r", status) );
-			break;
-		}
-
 		status = optiga_util_open_application(&optiga_comms);
 		if(OPTIGA_LIB_SUCCESS != status)
 		{
