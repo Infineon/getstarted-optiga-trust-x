@@ -21,8 +21,9 @@ In this guide you may find the following steps:
     * derive a key (TLS PRF with SHA-256) 
 
 ## Hardware and Software
-* This get strated guide uses the [OPTIGA™ Trust X evaluation and demonstration kit](https://www.infineon.com/cms/en/product/evaluation-boards/optiga-trust-x-eval-kit/)
-* This get staerted guide uses DAVE™ IDE as a reference sofwtare developemnt platfrom
+![OPTIGA™ Trust X Evaluation Kit](https://www.infineon.com/export/sites/default/_images/product/evaluation-boards/OPTIGA-trust-x-eval-kit.jpg_123076721.jpg)
+* This get started guide uses the [OPTIGA™ Trust X evaluation and demonstration kit](https://www.infineon.com/cms/en/product/evaluation-boards/optiga-trust-x-eval-kit/)
+* This get started guide uses DAVE™ IDE as a reference software development platform
 
 ## Contributing
 Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
