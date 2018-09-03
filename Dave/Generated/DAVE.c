@@ -68,8 +68,8 @@ DAVE_STATUS_t DAVE_Init(void)
 
   if (init_status == DAVE_STATUS_SUCCESS)
   {
-	 /**  Initialization of ETH_LWIP APP instance ethernet_lwip */
-	 init_status = (DAVE_STATUS_t)ETH_LWIP_Init(&ethernet_lwip); 
+	 /**  Initialization of SYSTIMER APP instance SYSTIMER_0 */
+	 init_status = (DAVE_STATUS_t)SYSTIMER_Init(&SYSTIMER_0); 
    } 
   if (init_status == DAVE_STATUS_SUCCESS)
   {
