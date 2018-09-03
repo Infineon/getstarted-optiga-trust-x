@@ -60,6 +60,7 @@ extern optiga_lib_status_t  example_optiga_crypt_random(void);
 extern optiga_lib_status_t  example_optiga_crypt_tls_prf_sha256(void);
 extern optiga_lib_status_t  example_optiga_util_read_data(void);
 extern optiga_lib_status_t  example_optiga_util_write_data(void);
+extern optiga_lib_status_t  example_authenticate_chip(void);
 
 extern optiga_lib_status_t asn1_to_ecdsa_rs(const uint8_t * asn1, size_t asn1_len,
 											uint8_t * rs, size_t * rs_len);
@@ -123,6 +124,17 @@ int main(Void)
         {
         	break;
         }
+
+#ifdef MODULE_ENABLE_ONE_WAY_AUTH
+		Print_Stringline("***Starting Authentication use cases***");
+		//Demonstrate Chip Authentication
+		return_status = example_authenticate_chip();
+		if(OPTIGA_LIB_SUCCESS != return_status)
+		{
+			break;
+		}
+		Print_Stringline("***Exiting Authentication use cases***");
+#endif // MODULE_ENABLE_ONE_WAY_AUTH
 
 #ifdef MODULE_ENABLE_TOOLBOX
 

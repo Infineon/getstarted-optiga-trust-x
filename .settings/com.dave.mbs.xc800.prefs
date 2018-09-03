@@ -12,4 +12,4 @@ TEMPLATE_CODEGEN_DEBUG=disable
 TEMPLATE_KEY=com.ifx.xmc4000.appDaveProjectTemplate
 USED_DAVE_VERSIONS=4.3.2,4.4.2
 eclipse.preferences.version=1
-minDaveVersion=4.3.2
+minDaveVersion=4.4.2

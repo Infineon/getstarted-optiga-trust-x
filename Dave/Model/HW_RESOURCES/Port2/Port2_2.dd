@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <ResourceModel:Port xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ResourceModel="http://www.infineon.com/Davex/Resource.ecore" URI="http://resources/0.1.40/port/p/2" description="Port 2" baseAddress="0x48028200">
   <provided xsi:type="ResourceModel:ResourceGroup" name="P2.4 / #48" URI="http://resources/0.1.40/port/p/2/pad/4">
-    <upwardMapList xsi:type="ResourceModel:HWResource" href="../../APPS/ETH_LWIP/v4_1_4/ETH_LWIP_0.app#//@hwResources.4"/>
     <resourcesList name="out_p" requiredResourceUri="http://resources/0.1.40/port/p/2/out/p4"/>
     <resourcesList name="omr_ps" requiredResourceUri="http://resources/0.1.40/port/p/2/omr/ps4"/>
     <resourcesList name="omr_pr" requiredResourceUri="http://resources/0.1.40/port/p/2/omr/pr4"/>
@@ -198,7 +197,6 @@
     <enumValues xsi:type="ResourceModel:RegEnumValue" value="0b11" description="Reserved."/>
   </provided>
   <provided xsi:type="ResourceModel:ResourceGroup" name="P2.5 / #47" URI="http://resources/0.1.40/port/p/2/pad/5">
-    <upwardMapList xsi:type="ResourceModel:HWResource" href="../../APPS/ETH_LWIP/v4_1_4/ETH_LWIP_0.app#//@hwResources.9"/>
     <resourcesList name="out_p" requiredResourceUri="http://resources/0.1.40/port/p/2/out/p5"/>
     <resourcesList name="omr_ps" requiredResourceUri="http://resources/0.1.40/port/p/2/omr/ps5"/>
     <resourcesList name="omr_pr" requiredResourceUri="http://resources/0.1.40/port/p/2/omr/pr5"/>
@@ -235,7 +233,6 @@
     <enumValues xsi:type="ResourceModel:RegEnumValue" value="0b11" description="Reserved."/>
   </provided>
   <provided xsi:type="ResourceModel:ResourceGroup" name="P2.3 / #49" URI="http://resources/0.1.40/port/p/2/pad/3">
-    <upwardMapList xsi:type="ResourceModel:HWResource" href="../../APPS/ETH_LWIP/v4_1_4/ETH_LWIP_0.app#//@hwResources.6"/>
     <resourcesList name="out_p" requiredResourceUri="http://resources/0.1.40/port/p/2/out/p3"/>
     <resourcesList name="omr_ps" requiredResourceUri="http://resources/0.1.40/port/p/2/omr/ps3"/>
     <resourcesList name="omr_pr" requiredResourceUri="http://resources/0.1.40/port/p/2/omr/pr3"/>
@@ -286,7 +283,6 @@
     <enumValues xsi:type="ResourceModel:RegEnumValue" value="0b11" description="Reserved."/>
   </provided>
   <provided xsi:type="ResourceModel:ResourceGroup" name="P2.2 / #50" URI="http://resources/0.1.40/port/p/2/pad/2">
-    <upwardMapList xsi:type="ResourceModel:HWResource" href="../../APPS/ETH_LWIP/v4_1_4/ETH_LWIP_0.app#//@hwResources.5"/>
     <resourcesList name="out_p" requiredResourceUri="http://resources/0.1.40/port/p/2/out/p2"/>
     <resourcesList name="omr_ps" requiredResourceUri="http://resources/0.1.40/port/p/2/omr/ps2"/>
     <resourcesList name="omr_pr" requiredResourceUri="http://resources/0.1.40/port/p/2/omr/pr2"/>
@@ -323,7 +319,6 @@
   <provided xsi:type="ResourceModel:BitField" name="PC2_2_0" URI="http://resources/0.1.40/port/p/2/iocr0/pc2_2_0" value="0" toolTipHelpDescription="Port Control for Port n Pin 0 to 3" defaultValue="0" startPos="19" stopPos="21" accessPermission="rw" maxValue="7" minValue="0"/>
   <provided xsi:type="ResourceModel:BitField" name="PC2_4" URI="http://resources/0.1.40/port/p/2/iocr0/pc2_4" value="0" toolTipHelpDescription="Port Control for Port n Pin 0 to 3" defaultValue="0" startPos="23" stopPos="23" accessPermission="rw" maxValue="1" minValue="0"/>
   <provided xsi:type="ResourceModel:ResourceGroup" name="P2.0 / #52" URI="http://resources/0.1.40/port/p/2/pad/0">
-    <upwardMapList xsi:type="ResourceModel:HWResource" href="../../APPS/ETH_LWIP/v4_1_4/ETH_LWIP_0.app#//@hwResources.18"/>
     <resourcesList name="out_p" requiredResourceUri="http://resources/0.1.40/port/p/2/out/p0"/>
     <resourcesList name="omr_ps" requiredResourceUri="http://resources/0.1.40/port/p/2/omr/ps0"/>
     <resourcesList name="omr_pr" requiredResourceUri="http://resources/0.1.40/port/p/2/omr/pr0"/>
@@ -358,7 +353,6 @@
     <enumValues xsi:type="ResourceModel:RegEnumValue" value="0b11" description="Reserved."/>
   </provided>
   <provided xsi:type="ResourceModel:ResourceGroup" name="P2.9 / #45" URI="http://resources/0.1.40/port/p/2/pad/9">
-    <upwardMapList xsi:type="ResourceModel:HWResource" href="../../APPS/ETH_LWIP/v4_1_4/ETH_LWIP_0.app#//@hwResources.12"/>
     <resourcesList name="out_p" requiredResourceUri="http://resources/0.1.40/port/p/2/out/p9"/>
     <resourcesList name="omr_ps" requiredResourceUri="http://resources/0.1.40/port/p/2/omr/ps9"/>
     <resourcesList name="omr_pr" requiredResourceUri="http://resources/0.1.40/port/p/2/omr/pr9"/>
@@ -409,7 +403,6 @@
   <provided xsi:type="ResourceModel:BitField" name="PC9_4" URI="http://resources/0.1.40/port/p/2/iocr8/pc9_4" value="0" toolTipHelpDescription="Port Control for Port n Pin 8 to 11" defaultValue="0" startPos="15" stopPos="15" accessPermission="rw" maxValue="1" minValue="0"/>
   <provided xsi:type="ResourceModel:BitField" name="PC9_2_0" URI="http://resources/0.1.40/port/p/2/iocr8/pc9_2_0" value="0" toolTipHelpDescription="Port Control for Port n Pin 8 to 11" defaultValue="0" startPos="11" stopPos="13" accessPermission="rw" maxValue="7" minValue="0"/>
   <provided xsi:type="ResourceModel:ResourceGroup" name="P2.7 / #53" URI="http://resources/0.1.40/port/p/2/pad/7">
-    <upwardMapList xsi:type="ResourceModel:HWResource" href="../../APPS/ETH_LWIP/v4_1_4/ETH_LWIP_0.app#//@hwResources.17"/>
     <resourcesList name="out_p" requiredResourceUri="http://resources/0.1.40/port/p/2/out/p7"/>
     <resourcesList name="omr_ps" requiredResourceUri="http://resources/0.1.40/port/p/2/omr/ps7"/>
     <resourcesList name="omr_pr" requiredResourceUri="http://resources/0.1.40/port/p/2/omr/pr7"/>
@@ -444,7 +437,6 @@
     <enumValues xsi:type="ResourceModel:RegEnumValue" value="0b11" description="Reserved."/>
   </provided>
   <provided xsi:type="ResourceModel:ResourceGroup" name="P2.8 / #46" URI="http://resources/0.1.40/port/p/2/pad/8">
-    <upwardMapList xsi:type="ResourceModel:HWResource" href="../../APPS/ETH_LWIP/v4_1_4/ETH_LWIP_0.app#//@hwResources.11"/>
     <resourcesList name="out_p" requiredResourceUri="http://resources/0.1.40/port/p/2/out/p8"/>
     <resourcesList name="omr_ps" requiredResourceUri="http://resources/0.1.40/port/p/2/omr/ps8"/>
     <resourcesList name="omr_pr" requiredResourceUri="http://resources/0.1.40/port/p/2/omr/pr8"/>

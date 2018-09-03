@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <ResourceModel:Peripheral xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ResourceModel="http://www.infineon.com/Davex/Resource.ecore" URI="http://resources/0.1.29/peripheral/eth/0" description="Ethernet Unit 0" baseAddress="0x5000C000">
   <provided xsi:type="ResourceModel:ResourceGroup" name="eth" URI="http://resources/0.1.29/peripheral/eth/0/eth">
-    <upwardMapList xsi:type="ResourceModel:HWResource" href="../../APPS/ETH_LWIP/v4_1_4/ETH_LWIP_0.app#//@hwResources.0"/>
     <resourcesList name="mac_configuration" requiredResourceUri="http://resources/0.1.29/peripheral/eth/0/mac_configuration"/>
     <resourcesList name="mac_frame_filter" requiredResourceUri="http://resources/0.1.29/peripheral/eth/0/mac_frame_filter"/>
     <resourcesList name="hash_table_high" requiredResourceUri="http://resources/0.1.29/peripheral/eth/0/hash_table_high"/>
