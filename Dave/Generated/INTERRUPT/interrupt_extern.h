@@ -56,19 +56,15 @@
  * MACROS
  **********************************************************************************************************************/
 	
-#define delay_timer_isr IRQ_Hdlr_56
+#define delay_timer_isr IRQ_Hdlr_49
 		
-#define random_tick_timer_isr IRQ_Hdlr_57
-		
-#define scheduler_timer_isr IRQ_Hdlr_49
+#define scheduler_timer_isr IRQ_Hdlr_57
 		
 /***********************************************************************************************************************
  * EXTERN DECLARATIONS
 ***********************************************************************************************************************/
 	
 extern const INTERRUPT_t tick_timer_intr; 
-	
-extern const INTERRUPT_t random_timer_intr; 
 	
 extern const INTERRUPT_t scheduler_timer_intr; 
 	

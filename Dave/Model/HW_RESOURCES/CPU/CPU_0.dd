@@ -243,7 +243,7 @@
   </provided>
   <provided xsi:type="ResourceModel:BitField" name="setena31" URI="http://resources/0.1.31/peripheral/cpu/0/iser1/setena31" value="0" toolTipHelpDescription="Writing 0 to a SETENA bit has no effect, writing 1 to a bit enables the corresponding interrupt." defaultValue="0" startPos="31" stopPos="31" accessPermission="rw" maxValue="1" minValue="0"/>
   <provided xsi:type="ResourceModel:ResourceGroup" name="CCU43_1_IRQHandler" URI="http://resources/0.1.31/peripheral/cpu/0/nvic/interrupt/57">
-    <upwardMapList xsi:type="ResourceModel:HWResource" href="../../APPS/INTERRUPT/v4_0_8/INTERRUPT_1.app#//@hwResources.0"/>
+    <upwardMapList xsi:type="ResourceModel:HWResource" href="../../APPS/INTERRUPT/v4_0_8/INTERRUPT_2.app#//@hwResources.0"/>
     <resourcesList name="iser_setena" requiredResourceUri="http://resources/0.1.31/peripheral/cpu/0/iser1/setena25"/>
     <resourcesList name="icer_clrena" requiredResourceUri="http://resources/0.1.31/peripheral/cpu/0/icer1/clrena25"/>
     <resourcesList name="ispr_setpend" requiredResourceUri="http://resources/0.1.31/peripheral/cpu/0/ispr1/setpend25"/>
@@ -254,7 +254,7 @@
   </provided>
   <provided xsi:type="ResourceModel:BitField" name="setena25" URI="http://resources/0.1.31/peripheral/cpu/0/iser1/setena25" value="0" toolTipHelpDescription="Writing 0 to a SETENA bit has no effect, writing 1 to a bit enables the corresponding interrupt." defaultValue="0" startPos="25" stopPos="25" accessPermission="rw" maxValue="1" minValue="0"/>
   <provided xsi:type="ResourceModel:ResourceGroup" name="CCU41_1_IRQHandler" URI="http://resources/0.1.31/peripheral/cpu/0/nvic/interrupt/49">
-    <upwardMapList xsi:type="ResourceModel:HWResource" href="../../APPS/INTERRUPT/v4_0_8/INTERRUPT_2.app#//@hwResources.0"/>
+    <upwardMapList xsi:type="ResourceModel:HWResource" href="../../APPS/INTERRUPT/v4_0_8/INTERRUPT_0.app#//@hwResources.0"/>
     <resourcesList name="iser_setena" requiredResourceUri="http://resources/0.1.31/peripheral/cpu/0/iser1/setena17"/>
     <resourcesList name="icer_clrena" requiredResourceUri="http://resources/0.1.31/peripheral/cpu/0/icer1/clrena17"/>
     <resourcesList name="ispr_setpend" requiredResourceUri="http://resources/0.1.31/peripheral/cpu/0/ispr1/setpend17"/>
@@ -265,7 +265,6 @@
   </provided>
   <provided xsi:type="ResourceModel:BitField" name="setena17" URI="http://resources/0.1.31/peripheral/cpu/0/iser1/setena17" value="0" toolTipHelpDescription="Writing 0 to a SETENA bit has no effect, writing 1 to a bit enables the corresponding interrupt." defaultValue="0" startPos="17" stopPos="17" accessPermission="rw" maxValue="1" minValue="0"/>
   <provided xsi:type="ResourceModel:ResourceGroup" name="CCU43_0_IRQHandler" URI="http://resources/0.1.31/peripheral/cpu/0/nvic/interrupt/56">
-    <upwardMapList xsi:type="ResourceModel:HWResource" href="../../APPS/INTERRUPT/v4_0_8/INTERRUPT_0.app#//@hwResources.0"/>
     <resourcesList name="iser_setena" requiredResourceUri="http://resources/0.1.31/peripheral/cpu/0/iser1/setena24"/>
     <resourcesList name="icer_clrena" requiredResourceUri="http://resources/0.1.31/peripheral/cpu/0/icer1/clrena24"/>
     <resourcesList name="ispr_setpend" requiredResourceUri="http://resources/0.1.31/peripheral/cpu/0/ispr1/setpend24"/>

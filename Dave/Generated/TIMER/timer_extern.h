@@ -67,9 +67,6 @@
 extern TIMER_t tick_timer;
 
 /* Extern declaration of EVENT_DET APP handler */
-extern TIMER_t random_timer;
-
-/* Extern declaration of EVENT_DET APP handler */
 extern TIMER_t scheduler_timer;
 
 #endif /* TIMER_EXTERN_H */

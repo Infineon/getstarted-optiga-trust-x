@@ -83,11 +83,6 @@ DAVE_STATUS_t DAVE_Init(void)
    } 
   if (init_status == DAVE_STATUS_SUCCESS)
   {
-	 /**  Initialization of TIMER APP instance random_timer */
-	 init_status = (DAVE_STATUS_t)TIMER_Init(&random_timer); 
-   } 
-  if (init_status == DAVE_STATUS_SUCCESS)
-  {
 	 /**  Initialization of TIMER APP instance scheduler_timer */
 	 init_status = (DAVE_STATUS_t)TIMER_Init(&scheduler_timer); 
    } 
@@ -105,11 +100,6 @@ DAVE_STATUS_t DAVE_Init(void)
   {
 	 /**  Initialization of INTERRUPT APP instance tick_timer_intr */
 	 init_status = (DAVE_STATUS_t)INTERRUPT_Init(&tick_timer_intr); 
-   } 
-  if (init_status == DAVE_STATUS_SUCCESS)
-  {
-	 /**  Initialization of INTERRUPT APP instance random_timer_intr */
-	 init_status = (DAVE_STATUS_t)INTERRUPT_Init(&random_timer_intr); 
    } 
   if (init_status == DAVE_STATUS_SUCCESS)
   {

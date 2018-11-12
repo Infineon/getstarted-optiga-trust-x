@@ -94,7 +94,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="Libraries/TrustX/optiga/dtls|Libraries/OPTIGATrustX/pal/xmc4700_freertos|Libraries/TrustX/pal/xmc4700_freertos|Libraries/OPTIGATrustX/pal/esp32_amazonfreertos|Libraries/TrustX/pal/esp32_amazonfreertos|Libraries/OPTIGATrustX/examples/mbedtls|Libraries/TrustX/examples/mbedtls|Libraries/OPTIGATrustX/pal/esp32_freertos|Libraries/TrustX/pal/esp32_freertos|Libraries/OPTIGATrustX/pal/nrf5x|Libraries/TrustX/pal/nrf5x|main_xmc4500_service.c|RTE/Device/XMC4500-F100x1024|Libraries/OPTIGATrustX/pal/rpi|Dave/Model|Libraries/TrustX/pal/rpi" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="Libraries/TrustX/pal/xmc4800_awsfreertos|Libraries/TrustX/examples/mbedtls_port|Libraries/TrustX/pal/esp32_awsfreertos|Libraries/TrustX/optiga/dtls|Libraries/OPTIGATrustX/pal/xmc4700_freertos|Libraries/TrustX/pal/xmc4700_freertos|Libraries/OPTIGATrustX/pal/esp32_amazonfreertos|Libraries/TrustX/pal/esp32_amazonfreertos|Libraries/OPTIGATrustX/examples/mbedtls|Libraries/TrustX/examples/mbedtls|Libraries/OPTIGATrustX/pal/esp32_freertos|Libraries/TrustX/pal/esp32_freertos|Libraries/OPTIGATrustX/pal/nrf5x|Libraries/TrustX/pal/nrf5x|main_xmc4500_service.c|RTE/Device/XMC4500-F100x1024|Libraries/OPTIGATrustX/pal/rpi|Dave/Model|Libraries/TrustX/pal/rpi" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -242,7 +242,7 @@
 						</tool>
 					</fileInfo>
 					<sourceEntries>
-						<entry excluding="Libraries/TrustX/optiga/dtls|Libraries/OPTIGATrustX/pal/xmc4700_freertos|Libraries/TrustX/pal/xmc4700_freertos|Libraries/OPTIGATrustX/pal/esp32_amazonfreertos|Libraries/TrustX/pal/esp32_amazonfreertos|UVBuild|RTE|Libraries/OPTIGATrustX/examples/mbedtls|Libraries/TrustX/examples/mbedtls|Libraries/OPTIGATrustX/pal/esp32_freertos|Libraries/TrustX/pal/esp32_freertos|Libraries/OPTIGATrustX/pal/nrf5x|Libraries/TrustX/pal/nrf5x|main_xmc4500_service.c|Libraries/OPTIGATrustX/pal/rpi|Dave/Model|Libraries/TrustX/pal/rpi" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="Libraries/TrustX/pal/xmc4800_awsfreertos|Libraries/TrustX/examples/mbedtls_port|Libraries/TrustX/pal/esp32_awsfreertos|Libraries/TrustX/optiga/dtls|Libraries/OPTIGATrustX/pal/xmc4700_freertos|Libraries/TrustX/pal/xmc4700_freertos|Libraries/OPTIGATrustX/pal/esp32_amazonfreertos|Libraries/TrustX/pal/esp32_amazonfreertos|UVBuild|RTE|Libraries/OPTIGATrustX/examples/mbedtls|Libraries/TrustX/examples/mbedtls|Libraries/OPTIGATrustX/pal/esp32_freertos|Libraries/TrustX/pal/esp32_freertos|Libraries/OPTIGATrustX/pal/nrf5x|Libraries/TrustX/pal/nrf5x|main_xmc4500_service.c|Libraries/OPTIGATrustX/pal/rpi|Dave/Model|Libraries/TrustX/pal/rpi" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>

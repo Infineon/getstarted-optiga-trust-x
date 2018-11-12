@@ -66,22 +66,15 @@
  
 
 /* Moudule and Kernel Pointers */
-#define tick_timer_KERNEL_PTR (XMC_CCU4_MODULE_t*)(void *)CCU43_BASE
-#define tick_timer_SLICE_PTR  (XMC_CCU4_SLICE_t*)(void *)CCU43_CC42
+#define tick_timer_KERNEL_PTR (XMC_CCU4_MODULE_t*)(void *)CCU41_BASE
+#define tick_timer_SLICE_PTR  (XMC_CCU4_SLICE_t*)(void *)CCU41_CC43
 /* Shadow transfer masks */
-#define tick_timer_SLICE_SH_MSK      XMC_CCU4_SHADOW_TRANSFER_SLICE_2
-#define tick_timer_PRESCALER_SH_MSK  XMC_CCU4_SHADOW_TRANSFER_PRESCALER_SLICE_2
+#define tick_timer_SLICE_SH_MSK      XMC_CCU4_SHADOW_TRANSFER_SLICE_3
+#define tick_timer_PRESCALER_SH_MSK  XMC_CCU4_SHADOW_TRANSFER_PRESCALER_SLICE_3
 
 /* Moudule and Kernel Pointers */
-#define random_timer_KERNEL_PTR (XMC_CCU4_MODULE_t*)(void *)CCU43_BASE
-#define random_timer_SLICE_PTR  (XMC_CCU4_SLICE_t*)(void *)CCU43_CC43
-/* Shadow transfer masks */
-#define random_timer_SLICE_SH_MSK      XMC_CCU4_SHADOW_TRANSFER_SLICE_3
-#define random_timer_PRESCALER_SH_MSK  XMC_CCU4_SHADOW_TRANSFER_PRESCALER_SLICE_3
-
-/* Moudule and Kernel Pointers */
-#define scheduler_timer_KERNEL_PTR (XMC_CCU4_MODULE_t*)(void *)CCU41_BASE
-#define scheduler_timer_SLICE_PTR  (XMC_CCU4_SLICE_t*)(void *)CCU41_CC43
+#define scheduler_timer_KERNEL_PTR (XMC_CCU4_MODULE_t*)(void *)CCU43_BASE
+#define scheduler_timer_SLICE_PTR  (XMC_CCU4_SLICE_t*)(void *)CCU43_CC43
 /* Shadow transfer masks */
 #define scheduler_timer_SLICE_SH_MSK      XMC_CCU4_SHADOW_TRANSFER_SLICE_3
 #define scheduler_timer_PRESCALER_SH_MSK  XMC_CCU4_SHADOW_TRANSFER_PRESCALER_SLICE_3
