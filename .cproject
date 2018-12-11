@@ -93,8 +93,25 @@
 							<tool id="com.ifx.xmc4000.printsize.322656481" name="ARM-GCC Print Size" superClass="com.ifx.xmc4000.printsize"/>
 						</toolChain>
 					</folderInfo>
+					<folderInfo id="com.ifx.xmc4000.appRelease.703580008.1756943209" name="/" resourcePath="Libraries/TrustX/pal/linux">
+						<toolChain id="com.ifx.xmc4000.appRelease.toolChain.462886183" name="ARM-GCC Application" superClass="com.ifx.xmc4000.appRelease.toolChain" unusedChildren="">
+							<option id="com.ifx.xmc4000.option.debugging.level.35317864.976878075" name="Debug level" superClass="com.ifx.xmc4000.option.debugging.level.35317864"/>
+							<option id="com.ifx.xmc4000.option.targetPath.1564763569.1768269988" name="Target Path" superClass="com.ifx.xmc4000.option.targetPath.1564763569"/>
+							<option id="com.ifx.xmc4000.option.target.fpu.1497167867.1283134494" name="Fpu (-mfpu)" superClass="com.ifx.xmc4000.option.target.fpu.1497167867"/>
+							<option id="com.ifx.xmc4000.option.targetName.172409721.1667958647" name="Target Name" superClass="com.ifx.xmc4000.option.targetName.172409721"/>
+							<tool id="com.ifx.xmc4000.appRelease.compiler.408241384" name="ARM-GCC C Compiler" superClass="com.ifx.xmc4000.appRelease.compiler.584535407"/>
+							<tool id="com.ifx.xmc4000.appRelease.cppcompiler.943888416" name="ARM-GCC C++ Compiler" superClass="com.ifx.xmc4000.appRelease.cppcompiler.142005777"/>
+							<tool id="com.ifx.xmc4000.appRelease.assembler.1878683798" name="ARM-GCC Assembler" superClass="com.ifx.xmc4000.appRelease.assembler.1850401331"/>
+							<tool id="com.ifx.xmc4000.appRelease.linker.1980702310" name="ARM-GCC C Linker" superClass="com.ifx.xmc4000.appRelease.linker.649248777"/>
+							<tool id="com.ifx.xmc4000.appRelease.cpplinker.888840424" name="ARM-GCC C++ Linker" superClass="com.ifx.xmc4000.appRelease.cpplinker.169089816"/>
+							<tool id="com.ifx.xmc4000.libLinker.126120953" name="ARM-GCC Archiver" superClass="com.ifx.xmc4000.libLinker.188703139"/>
+							<tool id="com.ifx.xmc4000.appRelease.createflash.130660365" name="ARM-GCC Create Flash Image" superClass="com.ifx.xmc4000.appRelease.createflash.2057565457"/>
+							<tool id="com.ifx.xmc4000.appRelease.createlisting.437364626" name="ARM-GCC Create Listing" superClass="com.ifx.xmc4000.appRelease.createlisting.1759308604"/>
+							<tool id="com.ifx.xmc4000.printsize.1106406342" name="ARM-GCC Print Size" superClass="com.ifx.xmc4000.printsize.322656481"/>
+						</toolChain>
+					</folderInfo>
 					<sourceEntries>
-						<entry excluding="Libraries/TrustX/pal/xmc4800_awsfreertos|Libraries/TrustX/examples/mbedtls_port|Libraries/TrustX/pal/esp32_awsfreertos|Libraries/TrustX/optiga/dtls|Libraries/OPTIGATrustX/pal/xmc4700_freertos|Libraries/TrustX/pal/xmc4700_freertos|Libraries/OPTIGATrustX/pal/esp32_amazonfreertos|Libraries/TrustX/pal/esp32_amazonfreertos|Libraries/OPTIGATrustX/examples/mbedtls|Libraries/TrustX/examples/mbedtls|Libraries/OPTIGATrustX/pal/esp32_freertos|Libraries/TrustX/pal/esp32_freertos|Libraries/OPTIGATrustX/pal/nrf5x|Libraries/TrustX/pal/nrf5x|main_xmc4500_service.c|RTE/Device/XMC4500-F100x1024|Libraries/OPTIGATrustX/pal/rpi|Dave/Model|Libraries/TrustX/pal/rpi" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="Libraries/TrustX/pal/linux|Libraries/TrustX/pal/xmc4800_awsfreertos|Libraries/TrustX/examples/mbedtls_port|Libraries/TrustX/pal/esp32_awsfreertos|Libraries/TrustX/optiga/dtls|Libraries/OPTIGATrustX/pal/xmc4700_freertos|Libraries/TrustX/pal/xmc4700_freertos|Libraries/OPTIGATrustX/pal/esp32_amazonfreertos|Libraries/TrustX/pal/esp32_amazonfreertos|Libraries/OPTIGATrustX/examples/mbedtls|Libraries/TrustX/examples/mbedtls|Libraries/OPTIGATrustX/pal/esp32_freertos|Libraries/TrustX/pal/esp32_freertos|Libraries/OPTIGATrustX/pal/nrf5x|Libraries/TrustX/pal/nrf5x|main_xmc4500_service.c|RTE/Device/XMC4500-F100x1024|Libraries/OPTIGATrustX/pal/rpi|Dave/Model|Libraries/TrustX/pal/rpi" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
