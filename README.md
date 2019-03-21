@@ -2,7 +2,7 @@
 
 ## Description
 
-This repository contains one of Application Notes for [OPTIGA™ Trust X](www.infineon.com/optiga-trust-x) security chip.
+This repository contains one of Application Notes for [OPTIGA™ Trust X](https://www.infineon.com/cms/en/product/security-smart-card-solutions/optiga-embedded-security-solutions/optiga-trust/optiga-trust-x-sls-32aia/) security chip.
 
 * **You can find step-by-step get started guide on the [Wiki page](https://github.com/Infineon/getstarted-optiga-trust-x/wiki) of the project**
 * You can find more information about the security chip in the core [repository](https://github.com/Infineon/optiga-trust-x)
